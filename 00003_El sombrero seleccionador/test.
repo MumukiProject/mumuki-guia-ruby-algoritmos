@@ -1,0 +1,7 @@
+it "ordenar_por_seleccion! debe ordenar los elemento de menor a mayor"  do
+  expect(ordenar_por_seleccion! [9,7,2,6]).to eq [2,6,7,9]
+end
+
+it "ordenar_por_seleccion! mantiene el orden en listas ordenadas"  do
+  expect(ordenar_por_seleccion! [2,3,4,5]).to eq [2,3,4,5]
+end

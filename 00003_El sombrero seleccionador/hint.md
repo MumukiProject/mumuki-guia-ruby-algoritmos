@@ -1,0 +1,1 @@
+Recordá que el ordenamiento por selección recorre la lista y primero intercambia el primer elemento por el más pequeño, luego el segundo por siguiente menor y así sucesivamente :arrows_counterclockwise:. Lo que falta completar es cuántas veces se realizará esta acción y qué es lo que devuelve el método `ordenar_por_seleccion!`.

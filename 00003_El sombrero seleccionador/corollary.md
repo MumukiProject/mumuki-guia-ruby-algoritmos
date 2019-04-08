@@ -1,0 +1,1 @@
+En este caso ordenamos de menor a mayor, pero nada nos impedía hacerlo de mayor a menor. Recordá que la programación es una herramienta que nos permite hacer _casi_ todo lo que queramos. :wrench:
