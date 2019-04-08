@@ -1,1 +1,28 @@
-TODO
+it "[\"Y\", \"en\", \"la\", \"eternidad\", \"los\", \"dos\", \"unieron\", \"sus\", \"almas\", \"para\", \"darle\", \"vida\", \"a\", \"esta\", \"triste\", \"canción\", \"de\", \"amor\"] no es una balada"  do
+  expect(balada? ["Y", "en", "la", "eternidad", "los", "dos", "unieron", "sus", "almas", "para", "darle", "vida", "a", "esta", "triste", "canción", "de", "amor"]).to be_falsy
+end
+
+it "[\"Cuida\", \"bien\", \"al\", \"niño\", \"cuida\", \"bien\", \"su\", \"mente\", \"dale\", \"el\", \"sol\", \"de\", \"enero\"] no es una balada"  do
+  expect(balada? ["Cuida", "bien", "al", "niño", "cuida", "bien", "su", "mente", "dale", "el", "sol", "de", "enero"]).to be_falsy
+end
+
+it "[\"La\", \"ruta\", \"sigue\", \"más\", \"allá\", \"de\", \"las\", \"luces\", \"de\", \"la\", \"autopista\"] no es una balada"  do
+  expect(balada? ["La", "ruta", "sigue", "más", "allá", "de", "las", "luces", "de", "la", "autopista"]).to be_falsy
+end
+
+it "[\"Dame\", \"un\", \"mapa\", \"de\", \"tu\", \"amor\", \"dame\", \"que\", \"quiero\", \"encontrar\", \"tu\", \"corazón\"] es una balada"  do
+  expect(balada? ["Dame", "un", "mapa", "de", "tu", "amor", "dame", "que", "quiero", "encontrar", "tu", "corazón"]).to be_truthy
+end
+
+it "[\"Hoy\", \"se\", \"seca\", \"nuestro\", \"amor\", \"y\", \"nadie\", \"lo\", \"podrá\", \"arreglar\", \"mañana\"]
+ es una balada"  do
+  expect(balada? ["Hoy", "se", "seca", "nuestro", "amor", "y", "nadie", "lo", "podrá", "arreglar", "mañana"]).to be_truthy
+end
+
+it "[\"No\", \"hay\", \"nadie\", \"como\", \"tú\", \"mi\", \"amor\"] es una balada" do
+  expect(balada? ["No", "hay", "nadie", "como", "tú", "mi", "amor"]).to be_truthy
+end
+
+it "[] no es una balada" do
+	expect(balada? []).to be_falsy
+end
