@@ -1,0 +1,1 @@
+Pero como no hay una sola manera de ordenar los elementos de una lista, tampoco hay una sola manera de buscar en ella. :open_mouth:
