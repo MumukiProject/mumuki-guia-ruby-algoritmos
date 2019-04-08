@@ -1,7 +1,3 @@
-it "aparear debe aparear dos listas con algunas canciones"  do
+it "aparear [\"las\", \"tazas\", \"sobre\", \"el\", \"mantel\"] con [\"fue\", \"unos\", \"meses\", \"a\", \"Caseros\"] da como resultado [[\"las\", \"fue\"], [\"tazas\", \"unos\"], [\"sobre\", \"meses\"], [\"el\", \"a\"], [\"mantel\", \"Caseros\"]]"  do
   expect(aparear(["las", "tazas", "sobre", "el", "mantel"], ["fue", "unos", "meses", "a", "Caseros"])).to eq [["las", "fue"], ["tazas", "unos"], ["sobre", "meses"], ["el", "a"], ["mantel", "Caseros"]]
-end
-
-it "aparear debe aparear dos listas con otras canciones"  do
-  expect(aparear([1, 2, 3], [4, 5, 6])).to eq [[1, 4], [2, 5], [3, 6]]
 end
