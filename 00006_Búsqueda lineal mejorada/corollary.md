@@ -1,3 +1,5 @@
 Pero como no hay una sola manera de ordenar los elementos de una lista, tampoco hay una sola manera de buscar en ella. :open_mouth:
 
-La **búsqueda lineal** es bastante simple y nos sirvió aún cuando teníamos una lista desordenada. Pero tiene como desventaja que recorremos uno a uno los elementos intentando encontrar el buscado. Ahora que sabemos cómo ordenar nuestras listas, ¿se te ocurre como mejorar nuestra búsqueda? :thought_balloon:
+La **búsqueda lineal** es bastante simple y nos sirvió aún cuando teníamos una lista desordenada. Pero tiene como desventaja que recorremos uno a uno los elementos intentando encontrar el buscado. Imaginate buscar un elemento en una lista que tiene 1000 elementos, ¿y en una de 1000000? :cold_sweat: 
+
+¿Se te ocurre como mejorar nuestra búsqueda? :thought_balloon:
