@@ -10,8 +10,8 @@ it "[\"Uoh\",\"pa\",\"pa\",\"pa\"] tiene mas vocales que consonantes"  do
   expect(tiene_mas_vocales? ["Uoh","pa","pa","pa"]).to be_truthy
 end
 
-it "[\"Vine\",\"hasta\",\"aqui\",\"para\",\"poder\",\"abrazarte\"] tiene mas vocales que consonantes"  do
-  expect(tiene_mas_vocales? ["Vine","hasta","aquí","para","poder","abrazarte"]).to be_truthy
+it "[\"Aguante\", \"el\", \"murcielago\"] tiene mas vocales que consonantes"  do
+  expect(tiene_mas_vocales? ["Aguante", "el", "murcielago"]).to be_truthy
 end
 
 it "[] no tiene mas vocales que consonantes"  do
