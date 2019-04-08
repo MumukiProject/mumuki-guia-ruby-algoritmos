@@ -1,7 +1,19 @@
-it "existe_elemento? debe responder true si el elemento es parte de la lista"  do
+it "el elemento 2 existe en la lista [1, 2, 3]"  do
   expect(existe_elemento?(2, [Numero.new(1), Numero.new(2), Incomparable])).to be_truthy
 end
 
-it "existe_elemento? debe responder false si el elemento no es parte de la lista"  do
+it "el elemento 7 existe en la lista [4, 5, 6, 7, 8]"  do
+  expect(existe_elemento?(2, [Numero.new(4), Numero.new(5), Numero.new(6), Numero.new(7),Incomparable])).to be_truthy
+end
+
+it "el elemento 4 no existe en la lista [1, 2, 3]"  do
   expect(existe_elemento?(4, [Numero.new(1), Numero.new(2), Numero.new(3)]).to be_falsy
+end
+
+it "el elemento 9 existe en la lista [4, 5, 6, 7, 8]"  do
+  expect(existe_elemento?(2, [Numero.new(4), Numero.new(5), Numero.new(6), Numero.new(7), Numero.new(8)])).to be_truthy
+end
+
+it "el elemento 8 no existe en la lista []"  do
+  expect(existe_elemento?(8, []).to be_falsy
 end
