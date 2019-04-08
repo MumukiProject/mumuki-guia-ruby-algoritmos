@@ -1,0 +1,23 @@
+---
+tags: []
+layout: input_right
+editor: single_choice
+type: problem
+extra_visible: false
+language: text
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Porque a nadie le gusta el desorden
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Porque si encontramos un elemento mayor ya no hace falta recorrerla hasta
+    el final
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Porque al ordenar una lista se eliminan elementos
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "¿Quién dijo que es más fácil encontrar elementos en una lista ordenada?"
+  checked: false
+name: Todo en orden

@@ -1,0 +1,1 @@
+¡Exacto! :smile: Si la lista está ordenada al encontrar un elemento mayor al que buscamos ya sabemos que no lo vamos a encontrar más adelante en la lista :sunglasses:. 
