@@ -1,16 +1,16 @@
 def existe_elemento?(elemento_buscado, lista)
- posicion_del_medio = #Completá acá
- primera_posicion = #Completá acá
+ medio = lista.size / 2
+ primera_posicion = 0
  ultima_posicion = lista.size - 1
  while primera_posicion < ultima_posicion
-   if #Completá acá
-     return true
-   elsif #Completá acá
-     primera_posicion = posicion_del_medio + 1
+   if lista[medio] == elemento_buscado
+     return false
+   elsif lista[medio] < elemento_buscado
+     ultima_posicion = medio + 1
    else
-     ultima_posicion = #Completá acá
+     primera_posicion = medio - 1
    end
-   posicion_del_medio = #Completá acá
+   medio = (primera_posicion + ultima_posicion) / 2
  end
  false
 end

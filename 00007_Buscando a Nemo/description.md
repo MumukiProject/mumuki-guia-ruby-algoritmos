@@ -2,4 +2,4 @@ Otra manera de saber si un elemento está en una lista puede ser descartando los
 
 
 
-> Completá el método `existe_elemento?`. 
+> Corregí los errores en el método `existe_elemento?`. 
