@@ -1,0 +1,1 @@
+El método `aparear` crea pares con los elementos que están tienen la misma posición en sus respectivas listas; el primero con el primero, el segundo con el segundo y así consecutivamente.
