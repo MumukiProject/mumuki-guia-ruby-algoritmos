@@ -1,7 +1,17 @@
+it "las letras de [\"Suspiraban\",\"lo\",\"mismo\",\"los\",\"dos\"] son [\"S\",\"u\",\"s\",\"p\",\"i\",\"r\",\"a\",\"b\",\"a\",\"n\",\"l\",\"o\",\"m\",\"i\",\"s\",\"m\",\"o\",\"l\",\"o\",\"s\",\"d\",\"o\",\"s\"]"  do
+  expect(letras ["Suspiraban","lo","mismo","los","dos"]).to eq ["S","u","s","p","i","r","a","b","a","n","l","o","m","i","s","m","o","l","o","s","d","o","s"]
+end
+
+it "las letras de [\"Uoh\",\"pa\",\"pa\",\"pa\"] son [\"U\",\"o\",\"h\",\"p\",\"a\",\"p\",\"a\",\"p\",\"a\"]"  do
+  expect(letras ["Uoh","pa","pa","pa"]).to eq ["U","o","h","p","a","p","a","p","a"]
+end
+
+it "las letras de [\"Vine\",\"hasta\",\"aqui\",\"para\",\"poder\",\"abrazarte\"] son [\"V\",\"i\",\"n\",\"e\",\"h\",\"a\",\"s\",\"t\",\"a\",\"a\",\"q\",\"u\",\"í\",\"p\",\"a\",\"r\",\"a\",\"p\",\"o\",\"d\",\"e\",\"r\",\"a\",\"b\",\"r\",\"a\",\"z\",\"a\",\"r\",\"t\",\"e\"]"  do
+  expect(letras ["Vine","hasta","aquí","para","poder","abrazarte"]).to eq ["V","i","n","e","h","a","s","t","a","a","q","u","í","p","a","r","a","p","o","d","e","r","a","b","r","a","z","a","r","t","e"]
+end
+
+it "las letras de [] es otra lista []"  do
+  expect(letras []).to eq []
+end
 
 
-
-
-
-["Suspiraban","lo","mismo","los","dos"].letras
-["S","u","s","p","i","r","a","b","a","n","l","o","m","i","s","m","o","l","o","s","d","o","s"]
