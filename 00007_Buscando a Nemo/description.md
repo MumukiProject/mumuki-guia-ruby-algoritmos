@@ -1,4 +1,4 @@
-Nuestras listas ya pueden ser ordenadas, así que mejoremos nuestra manera de buscar.
+Nuestras listas ya pueden ser ordenadas, así que mejoremos nuestra manera de buscar. :mag_right:
 
 
 Otra manera de saber si un elemento está en una lista puede ser descartando los lugares donde no está lo que buscamos. 
