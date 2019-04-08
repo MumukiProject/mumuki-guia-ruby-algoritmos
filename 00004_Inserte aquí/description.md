@@ -1,4 +1,10 @@
-Sigamos el ejemplo de la biblioteca. Para ordenar los libros por altura una manera sería agarrar uno por uno y “moverlos” hasta encontrar uno que sea más alto. Luego colocarlo a su derecha.
+Sigamos el ejemplo de la biblioteca. Para ordenar los libros por altura una manera sería agarrar uno por uno y “moverlos” hasta encontrar uno que sea más alto. Luego colocarlo a su derecha de esta forma:
+
+
+<div align="center">
+  <img src="https://mumuki.io/static/for_content/ordenamiento.svg" alt="biblioteca_1554762783192.gif" width="auto" height="auto">
+</div>
+
 
 Así es como funciona el _ordenamiento por inserción_, otra manera de ordenar nuestras listas, y este es su código :
 
