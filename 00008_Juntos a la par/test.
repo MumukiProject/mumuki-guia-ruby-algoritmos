@@ -2,8 +2,12 @@ it "aparear [\"las\", \"tazas\", \"sobre\", \"el\", \"mantel\"] con [\"fue\", \"
   expect(aparear(["las", "tazas", "sobre", "el", "mantel"], ["fue", "unos", "meses", "a", "Caseros"])).to eq [["las", "fue"], ["tazas", "unos"], ["sobre", "meses"], ["el", "a"], ["mantel", "Caseros"]]
 end
 
-it "aparear [\"hola\"] con [\"chau\"] da como resultado [[\"hola\", \"chau\"]]"  do
-  expect(aparear(["hola"], ["chau"])).to eq [["hola", "chau"]]
+it "aparear [\"adios\", \"se\", \"dijeron\", \"adios\"] con [\"vivir\", \"solo\", \"cuesta\", \"vida\"] da como resultado [[\"hola\", \"chau\"]]"  do
+  expect(aparear(["adios", "se", "dijeron", "adios"], ["vivir", "solo", "cuesta", "vida"])).to eq [["hola", "chau"]]
+end
+
+it "aparear [\"hola\"] con [\"chau\"] da como resultado [[\"hola\", \"chau\"]] da como resultado [[\"adios\", \"vivir\"], [\"se\", \"solo\"], [\"dijeron\", \"cuesta\"], [\"adios\", \"vida\"]]"  do
+  expect(aparear(["adios", "se", "dijeron", "adios"], ["vivir", "solo", "cuesta", "vida"])).to eq [["adios", "vivir"], ["se", "solo"], ["dijeron", "cuesta"], ["adios", "vida"]]
 end
 
 it "aparear [] con [] da como resultado []"  do
