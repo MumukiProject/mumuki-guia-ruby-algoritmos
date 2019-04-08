@@ -1,7 +1,19 @@
-it "ordenar_por_seleccion! debe ordenar los elemento de menor a mayor"  do
+it "ordenar_por_seleccion! [3] debe devolver [3]"  do
+  expect(ordenar_por_seleccion! [3]).to eq [3]
+end
+
+it "ordenar_por_seleccion! [9,7,2,6] debe devolver [2,6,7,9]"  do
   expect(ordenar_por_seleccion! [9,7,2,6]).to eq [2,6,7,9]
 end
 
-it "ordenar_por_seleccion! mantiene el orden en listas ordenadas"  do
+it "ordenar_por_seleccion! [2,3,4,5] debe devolver [2,3,4,5]"  do
   expect(ordenar_por_seleccion! [2,3,4,5]).to eq [2,3,4,5]
+end
+
+it "ordenar_por_seleccion! [10,9,8,7] debe devolver [7,8,9,10]"  do
+  expect(ordenar_por_seleccion! [10,9,8,7]).to eq [7,8,9,10]
+end
+
+it "ordenar_por_seleccion! [] debe devolver []"  do
+  expect(ordenar_por_seleccion! []).to eq []
 end
