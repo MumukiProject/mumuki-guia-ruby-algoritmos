@@ -1,0 +1,1 @@
+¡Excelente! En el mundo de la programación :earth_americas::computer: a esta búsqueda en la cual recorremos elemento por elemento hasta llegar al buscado se la conoce como _búsqueda lineal_ :mag_right:. Pero... ¿no sería más fácil nuestra tarea si lo elementos estuviesen ordenados? :smirk:

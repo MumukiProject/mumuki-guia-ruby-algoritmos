@@ -1,0 +1,1 @@
+¿Te acordás del `while` de Gobstones? En Ruby existe y también realiza una acción mientras su condición sea verdadera. En este caso _entramos_ al `while` siempre que no hayamos recorrido toda la lista ni hayamos encontrado al elemento. Por cada vez que entramos al ciclo es necesario avanzar la posición para seguir buscando. :sunglasses:
