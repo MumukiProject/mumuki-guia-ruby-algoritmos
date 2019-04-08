@@ -1,7 +1,7 @@
-Nuestras listas ya pueden ser ordenadas, así que mejoremos nuestra manera de buscar. :mag_right:
+¡Ya sabemos cómo ordenar nuestras listas! ¡Mejoremos nuestra manera de buscar! :mag_right:
 
-Imaginate que estás buscando nuevamente un libro, pero esta vez en una biblioteca ordenada :wink:. Al estar ordenada podemos obviar los lugares donde sabemos que no está lo que buscamos. 
+Imaginate que estás buscando nuevamente un libro, solo que esta vez en una biblioteca ordenada :wink: ¿No podríamos esquivar los lugares donde sabemos que no está lo que buscamos?
 
-Siguiendo esta lógica planteamos un nuevo método `existe_elemento?` pero tiene algunos errores. :disappointed_relieved:
+Pensando en esto, quisimos rehacer `existe_elemento?` (si, otra vez :stuck_out_tongue_winking_eye:), pero no nos salió tan bien como esperábamos :disappointed_relieved: ¿Nos ayudas a arreglar nuestro código?
 
 > Corregí los errores en el método `existe_elemento?`. 
