@@ -1,0 +1,1 @@
+Lo primero que hay que hacer es obtener las letras de una canción. Luego con `partition` separar las vocales de las consonantes y por último comparar los tamaños de cada una de estas listas. Recordá que para acceder al primer elemento de la lista debes hacer `lista[0]` y para acceder al segundo `lista[1]`.

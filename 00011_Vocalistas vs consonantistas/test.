@@ -1,0 +1,19 @@
+it "[\"Suspiraban\",\"lo\",\"mismo\",\"los\",\"dos\"] tiene mas consonantes que vocales"  do
+  expect(tiene_mas_vocales? ["Suspiraban","lo","mismo","los","dos"]).to be_falsy
+end
+
+it "[\"Vine\",\"hasta\",\"aqui\",\"para\",\"poder\",\"abrazarte\"] no tiene mas vocales que consonantes"  do
+  expect(tiene_mas_vocales? ["Vine","hasta","aquí","para","poder","abrazarte"]).to be_falsy
+end
+
+it "[\"Uoh\",\"pa\",\"pa\",\"pa\"] tiene mas vocales que consonantes"  do
+  expect(tiene_mas_vocales? ["Uoh","pa","pa","pa"]).to be_truthy
+end
+
+it "[\"Vine\",\"hasta\",\"aqui\",\"para\",\"poder\",\"abrazarte\"] tiene mas vocales que consonantes"  do
+  expect(tiene_mas_vocales? ["Vine","hasta","aquí","para","poder","abrazarte"]).to be_truthy
+end
+
+it "[] no tiene mas vocales que consonantes"  do
+  expect(tiene_mas_vocales? []).to be_falsy
+end
