@@ -1,3 +1,3 @@
-¡Perfecto! :tada: Si bien nuestro método se llama nuevamente `existe_elemento?` es distinta la manera que tuvimos de encontrar al elemento buscado. En los dos primeros ejercicios realizamos una **búsqueda lineal** pero en este utilizamos una **búsqueda binaria**.
+¡Perfecto! :tada: Esta manera de buscar en la cual vamos descartando las mitades en las cuales sabemos que no está el elemento buscado es conocida como _búsqueda binaria_. Pero recordá que sólo funciona con listas ordenadas.
 
 Ahora dejemos un rato los libros :books: y pongámonos más musicales. :notes:
