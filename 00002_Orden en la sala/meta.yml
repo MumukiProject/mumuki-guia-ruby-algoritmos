@@ -1,0 +1,30 @@
+---
+tags: []
+layout: input_bottom
+editor: single_choice
+type: problem
+extra_visible: false
+language: text
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Intercambiar el primer elemento con el más grande, el segundo con el segundo
+    mayor, etc.
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Intercambiar el primer elemento con el más pequeño, el segundo con el segundo
+    menor, etc.
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Intercambiar el primero con el último, el segundo con el anteúltimo, etc.
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Intercambiarlos aleatoriamente esperando que se ordenen
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Todas las anteriores
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Ninguna de las anteriores
+  checked: false
+name: Orden en la sala
