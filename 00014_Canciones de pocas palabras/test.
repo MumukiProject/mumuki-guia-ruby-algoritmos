@@ -1,1 +1,15 @@
-TODO
+it "Las primeras palabras cortas de [] es una lista []" do
+	expect(primeras_palabras_cortas []).to eq []
+end
+
+it "Las primeras palabras cortas de [\"hola\", \"chau\", \"sol\"] son [\"hola\", \"chau\", \"sol\"]" do
+	expect(primeras_palabras_cortas ["hola", "chau", "sol"]).to eq ["hola", "chau", "sol"]
+end
+
+it "Las primeras palabras cortas de [\"Superstición\",\"siempre\",\"soñar\",\"nunca\",\"creer\"] es una lista []" do
+	expect(primeras_palabras_cortas ["Superstición","siempre","soñar","nunca","creer"]).to eq []
+end
+
+it "Las primeras palabras cortas de [\"Árbol\",\"hoja\",\"salto\",\"luz\",\"aproximación\"] son [\"Árbol\",\"hoja\",\"salto\",\"luz\"]" do
+	expect(primeras_palabras_cortas ["Árbol","hoja","salto","luz","aproximación"]).to eq ["Árbol","hoja","salto","luz"]
+end
