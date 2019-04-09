@@ -1,0 +1,1 @@
+El método `existe_elemento?` debería buscar sólo en los lugares de la lista donde puede estar lo que buscamos; para eso tiene que saltear las mitades en las cuales no está el elemento buscado.
