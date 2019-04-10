@@ -1,4 +1,4 @@
-Ya vimos cómo funciona el método `letras`, ahora vamos a implementarlo :sunglasses:. Pero para ello necesitamos un nuevo método. :grin:
+Ya vimos cómo funciona el método `letras`, ahora vamos a implementarlo :sunglasses:. Pero para ello necesitamos conocer un nuevo método. :grin:
 
 Vamos a conocer al primo del  `map`, el `flat_map`, el cual hace dos cosas: `flatten`y `map` :stuck_out_tongue_winking_eye:.
 
