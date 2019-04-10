@@ -29,3 +29,4 @@ end
 it "el elemento 7 no existe en la lista [1,2,3, 8, 9, 10]"  do
   expect(existe_elemento?(4, [Numero.new(1), Numero.new(2), Numero.new(3), Numero.new(8), Numero.new(9), Numero.new(10)])).to be_falsy
 end
+
