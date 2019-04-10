@@ -4,5 +4,5 @@ Valen es DJ, y comenzó creando nuevas canciones a partir de otras. Pero se dio 
 >
 >``` ruby
 ム aparear(["las", "tazas", "sobre", "el", "mantel"], ["fue", "unos", "meses", "a", "Caseros"])
-[["las", "fue"], ["tazas", "unos"], ["sobre", "meses"], ["el", "a"], ["mantel", "Caseros"]]
+=> [["las", "fue"], ["tazas", "unos"], ["sobre", "meses"], ["el", "a"], ["mantel", "Caseros"]]
 ```
