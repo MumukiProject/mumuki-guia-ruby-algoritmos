@@ -19,9 +19,9 @@ it "el elemento 6 no existe en la lista []"  do
 end
 
 it "el elemento 4 no existe en la lista [1, 2, 3]"  do
-  expect(existe_elemento?(4, [1,2,3]).to be_falsy
+  expect(existe_elemento?(4, [1,2,3])).to be_falsy
 end
 
 it "el elemento 7 no existe en la lista [1,2,3, 8, 9, 10]"  do
-  expect(existe_elemento?(4, [1,2,3, 8, 9, 10]).to be_falsy
+  expect(existe_elemento?(4, [1,2,3, 8, 9, 10])).to be_falsy
 end
