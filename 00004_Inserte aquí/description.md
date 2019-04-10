@@ -31,6 +31,7 @@ Tratá de entenderlo y luego…
 > 
 >``` ruby
 ム ordenar_por_insercion!([])
+ム ordenar_por_insercion! ([87])
 ム ordenar_por_insercion! ([4,8,7,3,2,13,42])
 ム ordenar_por_insercion! ([1,2,3,4,5])
 ム ordenar_por_insercion! ([100, 99, 98, 97, 96, 95, 94, 93, 92, 91, 90])
