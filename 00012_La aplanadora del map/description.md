@@ -18,6 +18,6 @@ El `flat_map` es muy parecido al `map`, pero con la diferencia de que el método
 > Definí el método `letras` que me dice las letras que componen una canción.
 >
 ``` ruby
-ム ["Suspiraban","lo","mismo","los","dos"].letras
+ム letras(["Suspiraban","lo","mismo","los","dos"])
 ["S","u","s","p","i","r","a","b","a","n","l","o","m","i","s","m","o","l","o","s","d","o","s"]
 ```
