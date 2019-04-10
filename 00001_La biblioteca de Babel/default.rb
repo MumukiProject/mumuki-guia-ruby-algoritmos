@@ -3,5 +3,5 @@ def existe_elemento?(elemento_buscado, lista)
 	while posicion < lista.size && lista[posicion] != elemento_buscado
 		#Completá acá
 	end
-	posicion <= lista.size
+	lista[posicion] == elemento_buscado
 end
