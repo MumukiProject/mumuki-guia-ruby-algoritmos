@@ -4,7 +4,7 @@ Quien canta :microphone: en una banda se conoce como vocalista, y Valen pensó: 
 
 ```ruby
 ム [1, 2, 3, 4, 5, 6].partition {|numero| numero.es_par? } 
-[[2, 4, 6], [1, 3, 5]]
+=> [[2, 4, 6], [1, 3, 5]]
 ```
 
 > Definí el método `tiene_mas_vocales?`que dada una canción me dice si tiene más vocales que consonantes. En la biblioteca podés encontrar el método `letras` y `vocal?`.
