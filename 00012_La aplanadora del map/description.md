@@ -1,6 +1,6 @@
 Ya vimos cómo funciona el método `letras`, ahora vamos a implementarlo :sunglasses:. Pero para ello necesitamos conocer un nuevo método. :grin:
 
-Vamos a conocer al primo del  `map`, el `flat_map`, el cual hace dos cosas: `flatten`y `map` :stuck_out_tongue_winking_eye:.
+Démosle la bienvenida al primo del  `map`, el `flat_map`, el cual hace dos cosas: `flatten`y `map` :stuck_out_tongue_winking_eye:.
 
 Refresquemos la memoria :snowflake:. El `map` es un método que a partir de una lista devuelve una nueva, que resulta de aplicar un método a cada elemento:
 
