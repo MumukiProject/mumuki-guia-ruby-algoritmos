@@ -1,6 +1,6 @@
 Ya vimos cómo funciona el método `letras`, ahora vamos a implementarlo :sunglasses:. Pero para ello necesitamos conocer un nuevo método. :grin:
 
-Démosle la bienvenida al primo del  `map`, el `flat_map`, el cual hace dos cosas: `flatten`y `map` :stuck_out_tongue_winking_eye:.
+Démosle la bienvenida al primo del `map`, el `flat_map`, el cual hace dos cosas: `flatten`y `map` :stuck_out_tongue_winking_eye:.
 
 Refresquemos la memoria :snowflake:. El `map` es un método que a partir de una lista devuelve una nueva, que resulta de aplicar un método a cada elemento:
 
@@ -18,6 +18,6 @@ El `flat_map` es muy parecido al `map`, pero con la diferencia de que el método
 > Definí el método `letras` que me dice las letras que componen una canción.
 >
 ``` ruby
-ム letras(["Suspiraban","lo","mismo","los","dos"])
+ム letras(["Suspiraban", "lo", "mismo", "los", "dos"])
 ["S","u","s","p","i","r","a","b","a","n","l","o","m","i","s","m","o","l","o","s","d","o","s"]
 ```
