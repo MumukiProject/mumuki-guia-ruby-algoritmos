@@ -1,3 +1,11 @@
+it "ordenar_por_seleccion! [] debe devolver []"  do
+  expect(ordenar_por_seleccion! []).to eq []
+end
+
+it "ordenar_por_seleccion! [8,7] debe devolver [7,8]"  do
+  expect(ordenar_por_seleccion! [8,7]).to eq [7,8]
+end
+
 it "ordenar_por_seleccion! [3] debe devolver [3]"  do
   expect(ordenar_por_seleccion! [3]).to eq [3]
 end
@@ -14,6 +22,3 @@ it "ordenar_por_seleccion! [10,9,8,7] debe devolver [7,8,9,10]"  do
   expect(ordenar_por_seleccion! [10,9,8,7]).to eq [7,8,9,10]
 end
 
-it "ordenar_por_seleccion! [] debe devolver []"  do
-  expect(ordenar_por_seleccion! []).to eq []
-end
