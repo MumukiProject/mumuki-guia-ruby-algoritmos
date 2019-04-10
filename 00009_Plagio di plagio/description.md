@@ -2,12 +2,12 @@ Nuestro método `aparear` está muy bueno pero no nos da una nueva canción sino
 
 ``` ruby
 ム [[1, 2], [3], [4]].flatten
-[1, 2, 3, 4]
+=> [1, 2, 3, 4]
 ```
 
 > Definí el método `componer` que dadas dos canciones me devuelve una nueva resultado de `aparear` las letras y luego aplanar el resultado con `flatten`.
 
 ``` ruby
 ム componer(["las", "tazas", "sobre", "el", "mantel"], ["fue", "unos", "meses", "a", "Caseros"])
-["las", "fue", "tazas", "unos", "sobre", "meses", "el", "a", "mantel", "Caseros"]
+=> ["las", "fue", "tazas", "unos", "sobre", "meses", "el", "a", "mantel", "Caseros"]
 ```
