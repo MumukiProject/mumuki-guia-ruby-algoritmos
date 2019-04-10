@@ -1,7 +1,3 @@
-it "el elemento 8 no existe en la lista []"  do
-  expect(existe_elemento?(8, [])).to be_falsy
-end
-
 it "el elemento 87 existe en la lista [87]"  do
   expect(existe_elemento?(87, [Numero.new(87)])).to be_truthy
 end
@@ -22,11 +18,14 @@ it "el elemento 6 no existe en la lista []"  do
   expect(existe_elemento?(6, [])).to be_falsy
 end
 
+it "el elemento 5 no existe en la lista [4]"  do
+  expect(existe_elemento?(5, [Numero.new(4)])).to be_falsy
+end
+
 it "el elemento 4 no existe en la lista [1, 2, 3]"  do
   expect(existe_elemento?(4, [Numero.new(1), Numero.new(2), Numero.new(3)])).to be_falsy
 end
 
-it "el elemento 7 no existe en la lista [1,2,3, 8, 9, 10]"  do
-  expect(existe_elemento?(4, [Numero.new(1), Numero.new(2), Numero.new(3), Numero.new(8), Numero.new(9), Numero.new(10)])).to be_falsy
+it "el elemento 7 no existe en la lista [1,2,3, 8, 9]"  do
+  expect(existe_elemento?(4, [Numero.new(1), Numero.new(2), Numero.new(3), Numero.new(8), Incomparable])).to be_falsy
 end
-
