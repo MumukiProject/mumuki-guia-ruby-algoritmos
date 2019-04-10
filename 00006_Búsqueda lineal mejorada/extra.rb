@@ -14,7 +14,7 @@ class Numero
 
   [:>, :>=, :<, :<=, :==].each do |selector|
     define_method(selector) do |other|
-      value.send selector, other.value
+      value.send selector, other
     end
   end
 end
