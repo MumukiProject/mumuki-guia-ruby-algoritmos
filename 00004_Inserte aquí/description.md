@@ -4,7 +4,6 @@ Volviendo a las bibliotecas :books:, imaginemos que tenemos que ordenarla por al
   <img src="https://mumuki.io/static/for_content/ordenamiento.svg" alt="biblioteca_1554762783192.gif" width="auto" height="auto">
 </div>
 
-
 Así es como funciona el _ordenamiento por inserción_, otra manera de ordenar nuestras listas, y este es su código :
 
 ```ruby
