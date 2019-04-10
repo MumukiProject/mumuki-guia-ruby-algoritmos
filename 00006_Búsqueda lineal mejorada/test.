@@ -1,6 +1,6 @@
 it "el elemento 87 existe en la lista [87]"  do
   numero = Numero.new(87)
-  expect(existe_elemento?(numero, [numero])).to be_truthy
+  expect(existe_elemento?(Numero.new(87), [Numero.new(87)])).to be_truthy
 end
 
 it "el elemento 1 existe en la lista [1, 2, 3]"  do
