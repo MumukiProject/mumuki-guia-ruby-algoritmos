@@ -1,4 +1,4 @@
-Sigamos el ejemplo de la biblioteca. Para ordenar los libros por altura una manera sería agarrar uno por uno y “moverlos” hasta encontrar uno que sea más alto. Luego colocarlo a su derecha de esta forma:
+Volviendo a las bibliotecas :books:, imaginemos que tenemos que ordenarla por altura. Una manera puede ser agarrar un libro y “moverlo” hasta encontrar uno que sea más alto y colocarlo a izquierda; luego pasar al siguiente, de esta forma:
 
 <div align="center">
   <img src="https://mumuki.io/static/for_content/ordenamiento.svg" alt="biblioteca_1554762783192.gif" width="auto" height="auto">
