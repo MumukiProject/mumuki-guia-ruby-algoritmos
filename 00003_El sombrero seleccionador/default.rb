@@ -11,7 +11,7 @@ def ordenar_por_seleccion!(lista)
 end
 
 def  intercambiar_elementos(unElemento, otroElemento)
-auxiliar = unElemento
-       	unElemento = otroElemento
-       	otroElemento = auxiliar
+  auxiliar = unElemento
+ 	unElemento = otroElemento
+ 	otroElemento = auxiliar
 end
