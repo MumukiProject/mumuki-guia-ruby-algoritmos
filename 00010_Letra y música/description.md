@@ -8,4 +8,4 @@ La parte favorita de Valen a la hora de escuchar música :headphones: eran las l
 ム letras(["Anteojos","negros","de","carey","auriculares","en","la","sien"])
 ム letras([])
 ```
-> Después seguí al próximo ejercicio para que lo definamos. :arm:
+> Después seguí al próximo ejercicio para que lo definamos. :muscle:
