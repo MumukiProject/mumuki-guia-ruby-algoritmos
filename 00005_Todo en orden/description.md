@@ -1,3 +1,3 @@
 Ahora que sabemos cómo ordenar los elementos de una lista, la búsqueda que hicimos en el [primer ejercicio]({../}exercises/mumukiproject/mumuki-guia-ruby-algoritmos/1) debería ser mucho fácil :satisfied:. Pero...
 
-> ¿Por qué crees que buscar en una lista ordenada es más fácil?
+> ¿Por qué crees que buscar linealmente en una lista ordenada es más fácil?
