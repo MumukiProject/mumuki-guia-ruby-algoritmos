@@ -11,6 +11,6 @@ Las canciones suelen tener palabras cortas en sus versos. Aunque hay excepciones
 > Definí el método `primeras_palabras_cortas` que devuelve una lista con las palabras hasta encontrar una que tenga más de 7 carácteres.
 >
  ```ruby
-ム primeras_palabras_cortas ["Árbol","hoja","salto","luz","aproximación"]
+ム primeras_palabras_cortas(["Árbol","hoja","salto","luz","aproximación"])
 ["Árbol","hoja","salto","luz"]
 ```
