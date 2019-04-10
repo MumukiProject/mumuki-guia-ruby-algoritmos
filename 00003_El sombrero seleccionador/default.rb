@@ -10,7 +10,7 @@ def ordenar_por_seleccion!(lista)
   #Completá acá
 end
 
-def  intercambiar_elementos(lista, posicion, otraPosicion)
+def intercambiar_elementos(lista, posicion, otraPosicion)
   auxiliar = lista[posicion]
   lista[posicion] = lista[otraPosicion]
   lista[otraPosicion] = auxiliar
